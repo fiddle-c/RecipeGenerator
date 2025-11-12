@@ -1,0 +1,65 @@
+.login-container {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    
+    justify-content: space-around;
+    
+    box-sizing: border-box;
+}
+.login-title {
+    color: black;
+}
+.login-container label {
+    font-size: small;
+    padding-bottom: 0.5em;
+}
+.credential-field :nth-child(2) {
+    margin-bottom: 1em;
+    
+}
+.credential-field {
+    display: flex; 
+    flex-direction: column;
+    color: black;
+    text-align: left;
+    padding: 0 1em;
+    justify-content: center;
+}
+
+.login-option {
+    display: flex;
+    flex-direction: column;
+}
+
+.credential-field input {
+    padding: 0.5em;
+    border-radius: 10px;
+    all: unset;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.login-container a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+.login-container span {
+    color: #FF5678;
+
+}
+.login-container button {
+    padding: 0.4rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background: #FF5678;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+}
