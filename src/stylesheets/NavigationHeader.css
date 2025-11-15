@@ -1,0 +1,23 @@
+.navigation-header {
+    text-align: right;
+    margin-left: auto;
+    
+}
+    
+.navigation-header a:hover {
+    transform: scale(1.05);
+}
+.navigation-header a {
+    transition: transform 0.2s ease;        
+    text-decoration: none;
+    color: black;
+    padding: 0 1em;
+    
+    
+}
+
+
+
+.navigation-header .selected{
+    color: #ff5678;
+}

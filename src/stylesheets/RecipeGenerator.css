@@ -1,5 +1,5 @@
+
 .recipe-container {
-    
     color: black;
     text-align: left;
     margin: auto 0;
@@ -14,12 +14,20 @@
     justify-content: center;
 }
 
+.input-container {
+
+    
+}
+
 .error-message {
     color: red;
     text-align: right;
     font-size: small;
 }
-
+.recipe-container h2 {
+    color: black;
+    font-weight: bold;
+}
 
 
 .recipe-container button {

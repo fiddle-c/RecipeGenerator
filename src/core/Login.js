@@ -1,11 +1,21 @@
 import '../stylesheets/Login.css'
-function Login() {
+
+function LoginView() {
     return (
         <div className="login-container">
             <h1 className="login-title">Login</h1>
             <div className="credential-field">
                 <label>email</label>
-                <input value="email" />
+                <input 
+                type="email"
+                autoComplete='email'
+                required
+                
+                value={email}
+                onChange={(e) => {
+                    
+                }}
+                />
                 <label>password</label>
                 <input type="password" value="email" />
                 <a href=""><span>Forgot Password or email</span></a>
@@ -19,4 +29,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default LoginView;

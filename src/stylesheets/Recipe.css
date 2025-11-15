@@ -1,0 +1,33 @@
+.recipe-container {
+    
+    
+    width: 600px;
+}
+
+
+.info-container {
+    width: 400px;
+    text-align: left;
+    margin: auto auto;
+}
+.recipe-container h1 {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+.recipe-container h3 {
+    color: black;
+    font-weight: bold;
+}
+.cover {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.author {
+    font-size: 0.7em;
+}
+
+.recipe-link {
+    text-decoration: none;
+}
