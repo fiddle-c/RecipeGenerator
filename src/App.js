@@ -1,5 +1,5 @@
 import './App.css';
-// import RecipeGenerator from './core/RecipeGenerator'
+// import RecipeGenerator from './core/recipeGenerator'
 import RecipeView from'./component/home/recipe'
 // import Login from './component/auth/login/index'
 import RecipeGenerator from './core/RecipeGenerator'
@@ -15,8 +15,8 @@ function App() {
           <Routes>
             <Route path="/home/index" element={<Home />} />
             <Route path="/core/RecipeGenerator" element={<RecipeGenerator />} />
-            <Route path="/home/recipe" element={<RecipeView/>}/>
-            </Routes>
+            <Route path="/home/recipe" element={<RecipeView />} />
+          </Routes>
           {/* <RecipeView /> */}
         </header>
       </div>

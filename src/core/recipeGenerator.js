@@ -39,8 +39,6 @@ function RecipeGenerator() {
             if (instructionText.trim().length === 0) {
             setShowError(true)
         } else {
-            console.log(instructions)
-
             setInstruction([
                 ...instructions,
                 { id: value, name: instructionText }

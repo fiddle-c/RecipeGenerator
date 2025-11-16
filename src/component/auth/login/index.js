@@ -11,12 +11,10 @@ const Login = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault()  
-        console.log("Signing in")
         try {
         if (!isSigningIn) {
             setIsSigningIn(true)
             await doSignInWithEmailAndPassword(email, password)
-            console.log("Login successful")
             }
         } catch(error)  {
             console.log(error)

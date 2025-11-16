@@ -1,12 +1,10 @@
 .recipe-container {
+    max-width: 600px;
     
-    
-    width: 600px;
 }
 
 
 .info-container {
-    width: 400px;
     text-align: left;
     margin: auto auto;
 }
@@ -15,6 +13,7 @@
     font-size: 1em;
     font-weight: bold;
 }
+
 .recipe-container h3 {
     color: black;
     font-weight: bold;
@@ -30,4 +29,9 @@
 
 .recipe-link {
     text-decoration: none;
+}
+
+.ingredient {
+    font-size: 0.9em;
+    line-height: 1em;
 }
